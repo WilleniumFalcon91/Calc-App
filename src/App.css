@@ -18,6 +18,35 @@
   font-size: large;
 }
 
+.calculator {
+  position: relative;
+  margin: 5% auto;
+  height: 400px;
+  width: 300px; 
+  border: 1px solid black;
+}
+
+.display {
+  position: relative;
+  width: 250px;
+  height: 100px;
+  border: 1px solid blue;
+  margin: 5% auto;
+}
+
+.value {
+  float: right;
+  margin: 30% 5% 0 auto;
+}
+
+.addButton {
+  position: relative;
+  margin: 25% auto;
+  border: 1px solid green;
+  width: 50px;
+  height: 50px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
