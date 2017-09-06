@@ -15,9 +15,7 @@ class App extends Component {
         <p className="App-intro">
           Get Ready To Crunch Some Numbers !*&^$*&
         </p>
-        <Calculator 
-          value={Calculator.value}
-        />
+        <Calculator />
       </div>
     );
   }
